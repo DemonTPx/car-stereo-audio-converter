@@ -2,6 +2,8 @@
 
 Convert audio to use in (old) car stereo's which support MP3 CD's, but which do not support newer types of MP3 files (like VBR encoding and IDv3.2 tags).
 
+I've originally made this to make sure that these audio files play and show their tags correctly in my Opel Astra which has a CD 30 MP3 audio system.
+
 ## Features
 
 The `convert-all.sh` script will convert all files in the `in` folder and write the output into the `out` folder. It will run in parallel, which means that every CPU core will be used to convert your audio as fast as possible.
